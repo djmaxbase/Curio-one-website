@@ -1,5 +1,7 @@
 Add this database file through the code or file in the repo:
 
+
+```
 CREATE DATABASE curioone;
 
 USE curioone;
@@ -19,3 +21,4 @@ CREATE TABLE posts (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   author VARCHAR(50)
 );
+```
