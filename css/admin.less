@@ -1,0 +1,155 @@
+@primary-color: #1a73e8;
+@primary-hover: #155ab6;
+@background-color: #f4f4f9;
+@light-bg: #fafafa;
+@container-bg: white;
+@border-radius: 8px;
+@input-border: #ccc;
+@cancel-bg: #ccc;
+@cancel-hover: #aaa;
+@error-color: red;
+@success-color: green;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: @background-color;
+}
+
+header {
+  background: @primary-color;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: @container-bg;
+  padding: 20px;
+  border-radius: @border-radius;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+  form {
+    margin-bottom: 40px;
+
+    input[type="text"],
+    textarea,
+    input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid @input-border;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: @primary-color;
+      color: white;
+      cursor: pointer;
+      transition: .2s;
+
+      &:hover {
+        background: @primary-hover;
+      }
+    }
+
+    a.cancel {
+      margin-left: 10px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background: @cancel-bg;
+      color: #333;
+
+      &:hover {
+        background: @cancel-hover;
+      }
+    }
+  }
+
+  .blog {
+    background: @light-bg;
+    padding: 20px;
+    border-radius: @border-radius;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+    h3 {
+      margin: 0 0 10px;
+    }
+
+    time {
+      color: #666;
+      font-size: 0.85em;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+
+    .blog-actions {
+      a {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        font-size: 0.9em;
+        text-decoration: none;
+
+        &.edit { background: @primary-color; }
+        &.delete { background: #e53935; }
+
+        &:hover { opacity: 0.85; }
+      }
+    }
+  }
+
+  p.success { color: @success-color; font-weight: bold; }
+  p.error { color: @error-color; font-weight: bold; }
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: @container-bg;
+  padding: 20px;
+  border-radius: @border-radius;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid @input-border;
+  }
+
+  button {
+    background: @primary-color;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background: @primary-hover;
+    }
+  }
+}
+
+#abp {
+  margin-top: 250px;
+}

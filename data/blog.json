@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Eerste stappen gezet!",
+        "time": "2025-09-01 14:32",
+        "text": "Vandaag zijn we begonnen met het ontwerpen van onze robot. We hebben veel geleerd over teamwork en plannen. Binnenkort meer updates!"
+    },
+    {
+        "id": 2,
+        "title": "We hebben een prototype!",
+        "time": "2025-09-02 10:00",
+        "image": "FTC_hero.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id accumsan felis. Phasellus nec dignissim arcu, eget consectetur nisi. Curabitur sit amet interdum est, et accumsan enim. Morbi ullamcorper venenatis risus. In dictum libero ut pretium dignissim. Curabitur venenatis rhoncus ante eget euismod. Proin velit lacus, placerat eu sem eu, efficitur malesuada justo. Phasellus varius ultricies imperdiet. Aliquam tincidunt tempus tellus, ut aliquet odio mollis facilisis. Nulla ac tortor et lacus luctus ullamcorper nec nec quam. Donec faucibus purus sed ante posuere, id feugiat odio faucibus. Maecenas ut molestie mi. Aenean ac neque sed magna lacinia scelerisque sed a justo. Mauris quis sapien sit amet orci aliquet dignissim. Praesent egestas semper magna, in posuere tortor. Praesent dictum, orci in tempus mollis, lacus libero sodales neque, sed consectetur justo enim non lectus. Ut a ipsum nibh. Integer vulputate magna sed auctor aliquet. Cras in dui tristique, mattis neque ac, congue odio. Curabitur egestas tincidunt ex nec faucibus. Sed eget nisi ultricies, porta libero hendrerit, interdum ex. Proin et eros a arcu luctus hendrerit sed vel justo. Quisque semper imperdiet nunc, in commodo turpis dictum eget. Ut placerat facilisis eleifend.Donec hendrerit pretium dui a gravida. Nulla facilisi. Morbi ullamcorper, libero sed feugiat sodales, nisi nulla pulvinar libero, ac "
+    },
+    {
+        "id": 4,
+        "title": "test 2",
+        "time": "2025-09-02 12:51",
+        "text": "test test",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "title": "test",
+        "time": "2025-09-02 13:13",
+        "text": "test",
+        "image": "perfectly_good_image_for_anything.jpg"
+    }
+]
